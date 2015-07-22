@@ -2,7 +2,7 @@
 ****************************
 Condensed Web Skype
 Created by TecknoJock
-Converted to dark theme and editted by omnicons
+Converted to a dark theme and editted by omnicons
 ****************************
 ***************************/
 :root .swx .meApp .summary {
@@ -77,7 +77,7 @@ Converted to dark theme and editted by omnicons
   top: -.1em !important;
 }
 :root .swx .chat .conversation .typing {
-  height: 2em !important;
+  height: 3em !important;
 }
 :root .swx .shell.footer {
   min-height: 0em;
@@ -119,4 +119,91 @@ Converted to dark theme and editted by omnicons
 }
 :root .swx .btn.primary:hover:before {
     background-color:#006388!important
+}
+.swx .themeWhite.side .recent.active
+{
+  background-color: #800080 !important;
+  /*fill: #00aff0 !important;*/
+  color: #800080!important;
+}
+.swx .themeWhite,
+.swx .chat,
+.swx .chat .conversation .history:before
+{
+  background: #808080!important;
+}
+.swx .chat .input.active
+{
+  background: #181818 !important;
+}
+.swx .shell.mainStage
+{
+  border-bottom: 0 !important;
+}
+
+.swx .chat .message .bubble
+{
+  margin: 1 !important;
+  background: #181818 !important;
+}
+.swx .chat .message.first.me:top
+{
+    content: "Me" !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 15px !important;
+    top: 2.5833px !important;
+    color: #E3E3E3 !important;
+}
+.swx .themeWhite,
+.swx .chat,
+.swx .chat .conversation .history:before
+{
+  background: #808080!important;
+}
+.swx .chat .conversation > .history .grid,
+.swx .chat .conversation > .new .grid
+{
+  padding-left: 0 !important;
+}
+.swx .chat .conversation>.history
+{
+  max-width: 100%;
+}
+.swx .side .recent .text .tileName,
+.swx .side .recent .text .message,
+.swx .side .searchItem .text .tileName,
+.swx .side .searchItem .text .message
+{
+  overflow: visible !important;
+  margin: 0 !important;
+  padding: 4 !important;
+  width: 20 !important;
+}
+.swx .chat .conversation .their.message.first
+{
+  margin-top: 1.8em !important;
+}
+.swx .side .separator p.strong:first-line
+{
+    font-size: 10px !important;
+}
+.swx .meApp .summary,
+.swx .shell.main .sideContainer
+{
+  max-width: 4em !important;
+  min-width: 4em !important;
+  width: 4em !important;
+}
+.swx .shell.mainStage
+{
+  border-bottom: 0 !important;
+}
+.shell.footer
+{
+  display: none !important;
+}
+.swx .chat .conversation .bubble .arrow
+{
+  display:none !important;
 }
