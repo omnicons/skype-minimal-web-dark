@@ -1,0 +1,122 @@
+/***************************
+****************************
+Condensed Web Skype
+Created by TecknoJock
+Converted to dark theme and editted by omnicons
+****************************
+***************************/
+:root .swx .meApp .summary {
+  max-width: 250px !important;
+  min-width: 175px !important;
+  width: 25% !important;
+}
+:root .swx .tile>.tileAvatar {
+  height: 35px !important;
+  width: 35px !important;
+}
+:root .swx .tile>.tileAvatar>.tileImage {
+  height: 35px !important;
+  width: 35px !important;
+}
+:root .swx .tile.online .presence:before, :root .swx .tile.mobile .presence:before, :root .swx .tile.idle .presence:before, :root .swx .tile.busy .presence:before, :root .swx .tile.offline .presence:before, :root .swx .tile.callForwarded .presence:before, :root .swx .tile.unknown .presence:before, :root .swx .tile.blocked .presence:before {
+  background-color: #FFFFFF;
+  bottom: -0.3em !important;
+  height: .75em !important;
+  right: -0.3em !important;
+  width: .75em !important;
+}
+:root .swx .shell.footer .app {
+    visibility: hidden;
+}
+:root .swx .chat .history .message.contact-request-sent, :root .swx .chat .history .message.contact-request-accepted, :root .swx .chat .history .message.contact-request-sent.their, :root .swx .chat .history .message.contact-request-accepted.their, :root .swx .chat .history .message.participant, :root .swx .chat .history .message.participant.their {
+  margin: .5em 0 !important;
+  padding: 0.25em 0 0.25em !important;
+}
+:root .swx .shell.main .sideContainer {
+  max-width: 250px !important;
+  min-width: 175px !important;
+  width: 25%  !important;
+}
+:root .swx .side .separator {
+  padding: 0.1em 1em !important;
+}
+:root .swx .side .timeline .recent.unread .counter {
+  margin-top: .27em !important;
+  right: .75em !important;
+}
+:root .swx h4, :root .swx .fontSize-h4 {
+  font-size: 0.65em !important;
+}
+:root .swx .peoplePicker .recent .message p, :root .swx .peoplePicker .searchItem .message p, :root .swx .side .recent .message p, :root .swx .side .searchItem .message p {
+  font-size: 0.5em !important;
+  line-height: 1em !important;
+  margin-top: -.5em;
+}
+:root .swx .avatar:before {
+  width: 30px !important;
+  height: 30px !important;
+}
+:root .swx .peoplePicker .recent, :root .swx .peoplePicker .searchItem, :root .swx .side .recent, :root .swx .side .searchItem {
+  height: 1em !important;
+  padding: 0.25em 0 0.2em !important;
+}
+:root .swx .tile.online .presence:after, :root .swx .tile.mobile .presence:after, :root .swx .tile.idle .presence:after, :root .swx .tile.busy .presence:after, :root .swx .tile.offline .presence:after, :root .swx .tile.callForwarded .presence:after, :root .swx .tile.unknown .presence:after, :root .swx .tile.blocked .presence:after {
+  bottom: 0em !important;
+  right: 0em !important;
+}
+:root .swx .tile.online .presence:before, :root .swx .tile.mobile .presence:before, :root .swx .tile.idle .presence:before, :root .swx .tile.busy .presence:before, :root .swx .tile.offline .presence:before, :root .swx .tile.callForwarded .presence:before, :root .swx .tile.unknown .presence:before, :root .swx .tile.blocked .presence:before {
+  background-color: #FFFFFF;
+  bottom: 0em !important;
+  right: 0em !important;
+}
+:root .swx .chat .conversation .their.message.first.showName {
+  margin-top: 1.25em !important;
+}
+:root .swx .chat .conversation .message .bubble .content { padding: 0em .5em 0.65em 1em !important; }
+:root .swx .chat .conversation .message.showTimestamp .timestamp {
+  top: -.1em !important;
+}
+:root .swx .chat .conversation .typing {
+  height: 2em !important;
+}
+:root .swx .shell.footer {
+  min-height: 0em;
+  visibility: collapse;
+  height: 0px;
+}
+:root .swx .themeLight.chat {
+    background-color:#252B2D!important
+}
+:root .swx .themeLight.chat .conversation .message.me .bubble, :root .swx .themeWhite.side .recent:hover,:root .swx .themeWhite.side .searchItem:hover, :root .swx .themeWhite.side .navigation .navItem:hover:not(.active), :root .swx .chat .input.active {
+    background-color:#444
+}
+:root .swx, :root .swx .chat .input.active form textarea, :root .swx .chat .conversationHeader .headerMain .roster .grid .tile.conversationTopic h3 > a,:root .swx .chat .conversationHeader .headerMain .roster .grid .tile.conversationTopic .displayMessage > a {
+    color:#E3E3E3
+}
+:root .swx.themeBlue,:root .swx .themeBlue {
+    background-color:#181818
+}
+:root .swx .themeWhite, :root .swx .themeLight.chat .conversation .message.their .bubble, :root .swx .chat .conversationHeader .headerMain, aside.sideContainer,:root ul.swxContextMenu,:root .swx .chat .conversationHeader .headerAdd {
+    background-color:#1E1E1E!important;
+}
+:root .swx .meApp .summary .innerSummary {
+    border:1px solid #000
+}
+:root .swx .themeWhite.side .recent.active,:root .swx .themeWhite.side .searchItem.active, :root .swx .themeWhite.side .navigation .navItem.active, :root ul.swxContextMenu li:focus span,:root ul.swxContextMenu li:hover span {
+    background-color:#224352!important
+}
+:root .swx .themeWhite.side .recent .tileName,:root .swx .themeWhite.side .searchItem .tileName, :root .swx .chat .input form textarea, :root .swx .search .input.active input,:root ul.swxContextMenu li {
+    color:#D2D2D2
+}
+:root .swx .showCover, :root .swx .cover {
+    opacity:0.3
+}  
+:root .swx .themeWhite .timeline .recent.unread:not(.active) .message {
+    color: #CE6600;
+}
+:root .swx .btn.primary:before {
+    background-color:#0085B6!important
+}
+:root .swx .btn.primary:hover:before {
+    background-color:#006388!important
+}
